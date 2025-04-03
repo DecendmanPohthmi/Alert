@@ -3,9 +3,8 @@ import folium
 import webbrowser
 from location_data import lat, lng
 
-import os
-
-API_KEY = os.getenv("API_KEY")
+from data import
+API_KEY
 
 def get_place_suggestions(api_key, query):
     if "," in query:
