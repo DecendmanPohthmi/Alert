@@ -42,6 +42,15 @@ python alert_message.py
 - The system fetches the current location and sends an SMS alert.
 - A map with the location is displayed.
 
+Run the alert.py to display the location
+```sh
+python alert.py
+```
+
+If the lat and lng is exist to the loaction.py the file will directly send and link to the browser by clicking on it
+
+If the lat and lng is not exist in the location.py it will ask you to enter the lat and lng
+
 ## Troubleshooting
 ### Authentication Errors (Twilio)
 If you get:
