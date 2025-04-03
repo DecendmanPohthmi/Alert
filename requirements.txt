@@ -1,0 +1,6 @@
+requests
+folium
+python-dotenv
+twilio
+geocoder
+webbrowser
