@@ -7,7 +7,9 @@ The **Emergency Alert System** is a Python-based application designed to send em
 - Detects distress keywords (e.g., "Help me") and triggers an alert.
 - Fetches the latest location coordinates.
 - Uses Twilio API to send emergency SMS to a predefined contact.
-- Reverse geocoding using Google Maps API.
+- Reverse geocoding using gomap.pro.
+  -It if a free location map platform that allow developer to run it for free without any payment detail required not as Google api.
+  -But for the best you can used Google Map Api it much more secure and scalable.
 - Displays an interactive map with the location.
 
 ## Installation
@@ -28,7 +30,7 @@ TWILIO_ACCOUNT_SID = "your_twilio_account_sid"
 TWILIO_AUTH_TOKEN = "your_twilio_auth_token"
 TWILIO_PHONE_NUMBER = "your_twilio_phone_number"
 EMERGENCY_CONTACT = "your_emergency_contact_number"
-API_KEY = "your_google_maps_api_key"
+API_KEY = "your_gomap.pro_api_key"
 ```
 
 **Note:** Do not hardcode API keys in your code. Use environment variables or a `.env` file instead.
